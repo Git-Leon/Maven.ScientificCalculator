@@ -86,7 +86,7 @@ class Calculator {
             case "cosine":
                 new Cosine().display(value);
                 break;
-            case "tan":
+            case "tangent":
                 new Tangent().display(value);
                 break;
             case "inversesine":
