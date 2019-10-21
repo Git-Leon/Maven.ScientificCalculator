@@ -1,6 +1,6 @@
 package com.zipcodewilmington.scientificcalculator;
 
-import com.zipcodewilmington.scientificcalculator.operations.InverseLogarithm;
+import com.zipcodewilmington.scientificcalculator.operators.operations.InverseLogarithm;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

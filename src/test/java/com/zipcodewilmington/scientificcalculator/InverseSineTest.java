@@ -1,6 +1,6 @@
 package com.zipcodewilmington.scientificcalculator;
 
-import com.zipcodewilmington.scientificcalculator.operations.InverseSine;
+import com.zipcodewilmington.scientificcalculator.operators.operations.InverseSine;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
