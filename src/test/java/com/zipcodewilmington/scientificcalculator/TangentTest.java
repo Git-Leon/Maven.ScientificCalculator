@@ -1,5 +1,6 @@
 package com.zipcodewilmington.scientificcalculator;
 
+import com.zipcodewilmington.scientificcalculator.operations.Tangent;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

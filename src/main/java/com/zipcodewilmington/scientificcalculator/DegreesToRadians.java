@@ -1,30 +1,23 @@
 package com.zipcodewilmington.scientificcalculator;
-import java.util.Scanner;
 
 public class DegreesToRadians {
-    Scanner scanner = new Scanner(System.in);
-    String degreesRadians;
+    public void run() {
+        String userInput = null;
+        while (!"exit".equals(userInput)) {
+            displayOptions();
+            userInput = Console.getStringInput("[degrees], [radians]").toLowerCase();
+            if("degrees".equals(userInput)) {
 
-    public String degreesToRadians() {
-        boolean D2R = true;
+            } else if("radians".equals(userInput)) {
 
-        while (D2R) {
-            String userOperator = "";
-            while(!userOperator.equals("degrees") || !userOperator.equals("radians")){
-                System.out.println("Pick between degrees or radians");
-                userOperator = scanner.nextLine();
-                switch (userOperator){
-                    case "degrees":
-                        degreesRadians = "degrees";
-                        break;
-                    case "radians":
-                        degreesRadians = "radians";
-                        break;
-                    default:
-                        System.out.println("ERROR: Please enter \"degrees\" or \"radians\".");
-                }
-                }if(userOperator.equals("degrees") || userOperator.equals("radians")) break;
             }
-        return degreesRadians;
+        }
     }
+
+    private void displayOptions() {
+        Console.println("\n-------------------------------------------------------------------");
+        Console.println("Welcome to the Calculator Application!");
+        Console.println("From here, you can enter any of the following commands:");
+    }
+
 }
