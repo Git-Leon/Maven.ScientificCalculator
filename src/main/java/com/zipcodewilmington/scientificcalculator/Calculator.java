@@ -3,10 +3,6 @@ package com.zipcodewilmington.scientificcalculator;
 import com.zipcodewilmington.scientificcalculator.operators.BinaryOperator;
 import com.zipcodewilmington.scientificcalculator.operators.Operator;
 import com.zipcodewilmington.scientificcalculator.operators.UnaryOperator;
-import com.zipcodewilmington.scientificcalculator.operators.operations.*;
-
-import java.util.Arrays;
-import java.util.List;
 
 class Calculator {
     void run() {

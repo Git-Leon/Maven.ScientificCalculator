@@ -10,6 +10,7 @@ public class Operator {
                     Console.getDoubleInput("Input first value"),
                     Console.getDoubleInput("Input second value"));
         }
+
         if (UnaryOperator.names().contains(userInput)) { // unary operator
             UnaryOperator.operate(userInput,
                     Console.getDoubleInput("Input first value"));
